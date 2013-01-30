@@ -22,9 +22,9 @@ function registerSubmit()
 	$sql="insert into users
 		(username, password)
 		values ('$user', '$pass')";
-	var_dump($sql);
+	//var_dump($sql);
 	$result=mysql_query($sql, $con);
-	var_dump($result);
+	//var_dump($result);
 	if(!$result)
 	{
 		die("Inset Table error".mysql_error());
