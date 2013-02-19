@@ -39,7 +39,7 @@ echo"<p>Login error...</p>";
 header('location: register.php');
 return;
 }
-echo "<p>Login secceed!!!</p>";
+header("location:home.php");
 }
 
 ?>
